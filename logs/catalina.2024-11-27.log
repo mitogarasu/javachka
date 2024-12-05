@@ -1,0 +1,117 @@
+27-Nov-2024 17:58:27.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/11.0.0
+27-Nov-2024 17:58:27.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Oct 3 2024 17:00:16 UTC
+27-Nov-2024 17:58:27.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  11.0.0.0
+27-Nov-2024 17:58:27.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+27-Nov-2024 17:58:27.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             14.4
+27-Nov-2024 17:58:27.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           aarch64
+27-Nov-2024 17:58:27.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/kober/Library/Java/JavaVirtualMachines/openjdk-23/Contents/Home
+27-Nov-2024 17:58:27.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23+37-2369
+27-Nov-2024 17:58:27.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+27-Nov-2024 17:58:27.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kober/Documents/demo 2
+27-Nov-2024 17:58:27.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kober/Downloads/apache-tomcat-11.0.0
+27-Nov-2024 17:58:27.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Nov-2024 17:58:27.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Nov-2024 17:58:27.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+27-Nov-2024 17:58:27.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Nov-2024 17:58:27.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Nov-2024 17:58:27.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kober/Downloads/apache-tomcat-11.0.0
+27-Nov-2024 17:58:27.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kober/Documents/demo 2
+27-Nov-2024 17:58:27.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kober/Documents/demo 2/temp
+27-Nov-2024 17:58:27.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kober/Documents/demo 2/conf/logging.properties
+27-Nov-2024 17:58:27.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Nov-2024 17:58:27.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=62310:/Applications/IntelliJ IDEA CE.app/Contents/bin
+27-Nov-2024 17:58:27.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+27-Nov-2024 17:58:27.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+27-Nov-2024 17:58:27.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+27-Nov-2024 17:58:27.499 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/kober/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-Nov-2024 17:58:27.673 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+27-Nov-2024 17:58:27.684 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [327] milliseconds
+27-Nov-2024 17:58:27.706 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Nov-2024 17:58:27.706 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.0]
+27-Nov-2024 17:58:27.710 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/kober/Documents/demo 2/conf/Catalina/localhost/demo.xml]
+27-Nov-2024 17:58:28.861 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Nov-2024 17:58:32.173 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/kober/Documents/demo 2/conf/Catalina/localhost/demo.xml] has finished in [4 463] ms
+27-Nov-2024 17:58:32.174 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Nov-2024 17:58:32.181 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4497] milliseconds
+27-Nov-2024 18:00:42.457 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Nov-2024 18:00:42.458 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Nov-2024 18:00:42.499 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Nov-2024 18:00:42.509 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Nov-2024 18:00:59.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/11.0.0
+27-Nov-2024 18:00:59.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Oct 3 2024 17:00:16 UTC
+27-Nov-2024 18:00:59.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  11.0.0.0
+27-Nov-2024 18:00:59.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+27-Nov-2024 18:00:59.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             14.4
+27-Nov-2024 18:00:59.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           aarch64
+27-Nov-2024 18:00:59.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/kober/Library/Java/JavaVirtualMachines/openjdk-23/Contents/Home
+27-Nov-2024 18:00:59.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23+37-2369
+27-Nov-2024 18:00:59.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+27-Nov-2024 18:00:59.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kober/Documents/demo 2
+27-Nov-2024 18:00:59.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kober/Downloads/apache-tomcat-11.0.0
+27-Nov-2024 18:00:59.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Nov-2024 18:00:59.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Nov-2024 18:00:59.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+27-Nov-2024 18:00:59.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Nov-2024 18:00:59.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Nov-2024 18:00:59.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kober/Downloads/apache-tomcat-11.0.0
+27-Nov-2024 18:00:59.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kober/Documents/demo 2
+27-Nov-2024 18:00:59.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kober/Documents/demo 2/temp
+27-Nov-2024 18:00:59.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kober/Documents/demo 2/conf/logging.properties
+27-Nov-2024 18:00:59.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Nov-2024 18:00:59.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=62627:/Applications/IntelliJ IDEA CE.app/Contents/bin
+27-Nov-2024 18:00:59.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+27-Nov-2024 18:00:59.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+27-Nov-2024 18:00:59.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+27-Nov-2024 18:00:59.194 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/kober/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-Nov-2024 18:00:59.341 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+27-Nov-2024 18:00:59.350 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [258] milliseconds
+27-Nov-2024 18:00:59.367 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Nov-2024 18:00:59.367 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.0]
+27-Nov-2024 18:00:59.370 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/kober/Documents/demo 2/conf/Catalina/localhost/demo.xml]
+27-Nov-2024 18:01:00.397 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Nov-2024 18:01:03.225 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/kober/Documents/demo 2/conf/Catalina/localhost/demo.xml] has finished in [3 854] ms
+27-Nov-2024 18:01:03.226 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Nov-2024 18:01:03.232 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3881] milliseconds
+27-Nov-2024 18:02:25.371 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Nov-2024 18:02:25.372 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Nov-2024 18:02:25.409 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Nov-2024 18:02:25.423 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Nov-2024 18:02:29.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/11.0.0
+27-Nov-2024 18:02:29.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Oct 3 2024 17:00:16 UTC
+27-Nov-2024 18:02:29.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  11.0.0.0
+27-Nov-2024 18:02:29.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+27-Nov-2024 18:02:29.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             14.4
+27-Nov-2024 18:02:29.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           aarch64
+27-Nov-2024 18:02:29.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/kober/Library/Java/JavaVirtualMachines/openjdk-23/Contents/Home
+27-Nov-2024 18:02:29.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23+37-2369
+27-Nov-2024 18:02:29.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+27-Nov-2024 18:02:29.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kober/Documents/demo 2
+27-Nov-2024 18:02:29.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kober/Downloads/apache-tomcat-11.0.0
+27-Nov-2024 18:02:29.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Nov-2024 18:02:29.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Nov-2024 18:02:29.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+27-Nov-2024 18:02:29.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Nov-2024 18:02:29.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Nov-2024 18:02:29.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kober/Downloads/apache-tomcat-11.0.0
+27-Nov-2024 18:02:29.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kober/Documents/demo 2
+27-Nov-2024 18:02:29.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kober/Documents/demo 2/temp
+27-Nov-2024 18:02:29.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kober/Documents/demo 2/conf/logging.properties
+27-Nov-2024 18:02:29.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Nov-2024 18:02:29.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=62806:/Applications/IntelliJ IDEA CE.app/Contents/bin
+27-Nov-2024 18:02:29.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+27-Nov-2024 18:02:29.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+27-Nov-2024 18:02:29.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+27-Nov-2024 18:02:29.435 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/kober/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-Nov-2024 18:02:29.572 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+27-Nov-2024 18:02:29.581 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [245] milliseconds
+27-Nov-2024 18:02:29.596 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Nov-2024 18:02:29.596 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.0]
+27-Nov-2024 18:02:29.599 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/kober/Documents/demo 2/conf/Catalina/localhost/demo.xml]
+27-Nov-2024 18:02:30.599 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Nov-2024 18:02:33.513 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/kober/Documents/demo 2/conf/Catalina/localhost/demo.xml] has finished in [3 914] ms
+27-Nov-2024 18:02:33.515 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Nov-2024 18:02:33.520 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3938] milliseconds
+27-Nov-2024 18:04:14.513 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Nov-2024 18:04:14.515 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Nov-2024 18:04:14.566 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Nov-2024 18:04:14.578 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

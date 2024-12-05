@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Thymeleaf Test</title>
+</head>
+<body>
+<h1>Task 1</h1>
+<h2>
+    <span th:text="'Hello, ' + ${message}"></span>
+</h2>
+
+<form th:action="@{/ThyTest}" th:object="${myUser}" method="post">
+    <label>Username:</label>
+    <input type="text" th:field="*{username}" />
+    <br />
+    <label>Password:</label>
+    <input type="password" th:field="*{password}" />
+    <br />
+    <input type="submit" value="Submit" />
+</form>
+</body>
+</html>

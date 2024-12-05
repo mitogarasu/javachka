@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>добавить пользователя</title>
+</head>
+<body>
+<form action="#" th:action="@{/adduser}" th:object="${myUser}" method="post">
+    <label>логин</label>
+    <input type="text" th:field="*{userLogin}" />
+    <label>пароль</label>
+    <input type="password" th:field="*{userPassword}" />
+    <input type="submit" value="Submit" />
+</form>
+
+
+</body>
+</html>

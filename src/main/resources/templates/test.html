@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Test Page</title>
+</head>
+<body>
+<h1>Users List</h1>
+<ul>
+    <li th:each="user : ${myUsers}" th:text="${user.username} + ' - ' + ${user.password}"></li>
+</ul>
+
+<h2>Added User:</h2>
+<p th:text="${user_add.username} + ' - ' + ${user_add.password}"></p>
+</body>
+</html>
